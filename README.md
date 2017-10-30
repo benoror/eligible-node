@@ -68,9 +68,6 @@ You can request an account at https://eligible.com/request-access
       * [List Tickets](#list-tickets)
       * [Create a Ticket Comment](#create-a-ticket-comment)
       * [List Comments for a Ticket](#list-comments-for-a-ticket)
-    * [Session Tokens](#session-tokens)
-      * [Create a Session Token](#create-a-session-token)
-      * [Revoke a Session Token](#revoke-a-session-token)
   * [Errors](#errors)
   * [Testing](#testing)
   * [Developing](#developing)
@@ -732,34 +729,6 @@ eligible.Ticket.comments('123')
 
   })
   .catch();
-```
-
-### Session Tokens
-
-#### Create a Session Token
-
-```js
-eligible.SessionToken.create({
-  endpoints: 'coverage',
-  ttl_seconds: 60,
-  max_calls: 10,
-})
-.then(function(json) {
-
-})
-.catch();
-```
-
-#### Revoke a Session Token
-
-```js
-eligible.SessionToken.revoke({
-  session_token: 'session-token-to-revoke',
-})
-.then(function(json) {
-
-})
-.catch();
 ```
 
 ## Errors
