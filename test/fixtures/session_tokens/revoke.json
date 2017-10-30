@@ -1,0 +1,64 @@
+[
+  {
+    "scope": "https://gds.eligibleapi.com:443",
+    "method": "POST",
+    "path": "/v1.5/session_tokens/create",
+    "body": {
+      "endpoints": "coverage",
+      "ttl_seconds": 60,
+      "max_calls": 10,
+      "api_key": "n5Cddnj2KST6YV9J2l2ztQQ2VrdPfzA4JPbn",
+      "test": "true"
+    },
+    "status": 200,
+    "response": {
+      "success": true,
+      "created_at": "2017-10-06T15:54:47Z",
+      "eligible_id": "VT6H532GSYP8F",
+      "session_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MDczMDUyODcsImV4cCI6MTUwNzMwNTM0NywianRpIjoiVlQ2SDUzMkdTWVA4RiIsImVuZHBvaW50cyI6WyJjb3ZlcmFnZSJdLCJhY2NvdW50X2lkIjo5OTYsImVudmlyb25tZW50IjoibGl2ZSJ9.AljKz0EiqHzBjYaMmVJTpAihSjTH9vgFtkbnHRrFigU",
+      "max_calls": 10,
+      "expires_at": "2017-10-06T15:55:47Z"
+    },
+    "headers": {
+      "date": "Fri, 06 Oct 2017 15:54:47 GMT",
+      "content-type": "application/json",
+      "transfer-encoding": "chunked",
+      "connection": "close",
+      "access-control-allow-origin": "*",
+      "x-request-id": "VT6H532GSYP8F",
+      "server": "Eligible",
+      "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+      "x-frame-options": "DENY",
+      "x-content-type-options": "nosniff",
+      "x-served-by": "backend"
+    }
+  },
+  {
+    "scope": "https://gds.eligibleapi.com:443",
+    "method": "POST",
+    "path": "/v1.5/session_tokens/revoke",
+    "body": {
+      "session_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MDczMDUyODcsImV4cCI6MTUwNzMwNTM0NywianRpIjoiVlQ2SDUzMkdTWVA4RiIsImVuZHBvaW50cyI6WyJjb3ZlcmFnZSJdLCJhY2NvdW50X2lkIjo5OTYsImVudmlyb25tZW50IjoibGl2ZSJ9.AljKz0EiqHzBjYaMmVJTpAihSjTH9vgFtkbnHRrFigU",
+      "api_key": "n5Cddnj2KST6YV9J2l2ztQQ2VrdPfzA4JPbn",
+      "test": "true"
+    },
+    "status": 200,
+    "response": {
+      "success": true,
+      "eligible_id": "36INBBAN2WSXS"
+    },
+    "headers": {
+      "date": "Fri, 06 Oct 2017 15:54:48 GMT",
+      "content-type": "application/json",
+      "transfer-encoding": "chunked",
+      "connection": "close",
+      "access-control-allow-origin": "*",
+      "x-request-id": "36INBBAN2WSXS",
+      "server": "Eligible",
+      "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+      "x-frame-options": "DENY",
+      "x-content-type-options": "nosniff",
+      "x-served-by": "backend"
+    }
+  }
+]
